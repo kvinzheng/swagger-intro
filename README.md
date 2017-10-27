@@ -1,12 +1,12 @@
-#Swagger
+# Swagger In tro #
 
-####💥Sections
+#### 💥Sections ####
 A typical swagger file is composed of three general sections:
 - API General Info - Configuration
 - Paths
 - Definitions
 
-####💥API General Info - configuration
+#### 💥API General Info - configuration ####
 
 This section provides general information about your API and
 how it is configured within the HTTP protocol. Version number, license, and overall descriptions of the API is housed within this section.
@@ -33,7 +33,7 @@ produces:
 - basepath ==> the path where Swagger will hook into
 - schemes, consumes, produces ==> HTTP configurations
 
-#####💥Definitions
+##### 💥Definitions #####
 In this section of our YAML file, we can specify schema definitions
 so that we do not clutter the paths section with this information; we can just reference them.
 
@@ -62,7 +62,7 @@ definitions:
         type: string
 ```
 
-####💥Schema Types
+#### 💥Schema Types ####
 
 👉 Strings
 ```
@@ -100,7 +100,7 @@ schema:
   ```
 
 
-####💥Paths
+#### 💥Paths ####
 In this section, we specify the routes our API accepts, which methods it supports. We must provide schema definitions for the API data.
 
 >GET REQUEST EXAMPLE
