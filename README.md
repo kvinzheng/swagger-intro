@@ -1,4 +1,4 @@
-# Swagger In tro #
+# Swagger Intro #
 
 #### 💥Sections ####
 A typical swagger file is composed of three general sections:
